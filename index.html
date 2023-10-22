@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <form action="insert.php"method="POST">
+            <h1>Storing Library users data</h1>
+            <p>
+                <label for="Firstname">FirstName:</label>
+                <input type="text"name="FirstName"id="FirstName">
+            </p>
+        
+                <label for="LastName">LastName:</label>
+                <input type="text"name="LastName"id="LastName">
+            </p>
+            <p>Gender:
+                <input type="radio"name="gender"id="male">
+                <label for="male">Male</label>
+                <input type="radio"name="gender"id="female">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <label for="addresss">Address:</label>
+                <input type="text"name="address"id="address">
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+                <br><br>
+                <button type="reset">reset</button>
+            </p>
+        </form>
+    </center>
+    
+</body>
+</html>
